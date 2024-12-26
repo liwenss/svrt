@@ -1,0 +1,42 @@
+.navbar-button {
+    color: white;
+    background-color: black;
+    border-top-right-radius:30px;
+    border-top-left-radius:30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: .7%;
+    padding-bottom: .7%;
+    font-weight: 600;
+}
+
+.home-navbar-button {
+    color: black;
+    background-color: white;
+    border-top-right-radius:30px;
+    border-top-left-radius:30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: .7%;
+    padding-bottom: .7%;
+    font-weight: 600;
+    
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 34px;
+}
+
+.overall-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+}

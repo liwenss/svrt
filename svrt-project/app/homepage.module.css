@@ -1,0 +1,10 @@
+.homepage {
+    position: "relative";
+    z-index: 1; 
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    font-family: inter;
+    font-size: 600%;
+    max-width: 80%
+}

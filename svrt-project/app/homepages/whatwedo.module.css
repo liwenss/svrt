@@ -1,0 +1,62 @@
+.what-we-do {
+    font-family: Inter;
+    font-size: 540%;
+}
+
+.we-do {
+    padding-top: 8%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    align-items: end;
+    
+}
+
+.what-we-do-maintext {
+    font-family: Inter;
+    padding-left: 4%;
+    padding-top: 2%;
+    font-size: 180%;
+    max-width: 70%;
+}
+
+.our-portfolio {
+    font-family: Inter;
+    text-decoration: underline;
+    font-size: 120%;
+    font-weight: 600;
+}
+
+.community-text {
+    font-family: Inter;
+    display: flex;
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 2%;
+}
+
+.build-a-community {
+    font-family: Inter;
+    font-size: 344%;
+}
+
+.what-we-do-subtext {
+    padding-top: 1%;
+    max-width: 50%;
+    font-family: Inter;
+    font-size: 144%;
+}
+
+.my-line {
+    width: 92%;
+    margin: 0 auto;
+    border:none;
+    height: 50px;
+    border-bottom: 3px solid lightgrey;
+    padding-bottom: 2%;
+
+}
