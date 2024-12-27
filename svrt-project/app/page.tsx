@@ -4,6 +4,9 @@ import * as React from 'react';
 import styles from '@/app/homepage.module.css';
 import Getintouch from "./homepages/getintouch";
 import Whatwedo from "./homepages/whatwedo";
+import Numbers from "./homepages/numbers";
+import Ceo from "./homepages/ceo";
+import Logos from "./homepages/logos";
 
 export default function Home() {
   return (
@@ -61,6 +64,14 @@ export default function Home() {
         height={1080} 
       />
       <Whatwedo/>
+      <div style={{ position: 'relative'}}>
+      <Numbers/>
+
+      
+      </div>
+      <Ceo/>
+      <Logos/>
+      
     </div>
     
 

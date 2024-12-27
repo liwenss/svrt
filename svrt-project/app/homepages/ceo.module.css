@@ -1,0 +1,41 @@
+.ceo-maintext {
+    font-family: Inter;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 270%;
+    max-width: 90%;
+    text-align: center;
+}
+
+.centering {
+    display:flex;
+    justify-content: center;
+    padding-top: 8%;
+}
+
+.first-name {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.bold-text {
+    font-weight: 600;
+    font-family: Inter;
+    font-size: 144%;
+}
+
+.ceo-description {
+    font-family: Inter;
+    font-size: 144%;
+}
+
+.circle-icon {
+    display:flex;
+    justify-content: center;
+    padding-top: 4%;
+}
+.circle {
+    transform: scale(3);
+}
