@@ -1,0 +1,36 @@
+.main-text {
+    font-family: Inter;
+    font-size: 186%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-bottom: 3%;
+}
+
+.title {
+    font-family: Inter;
+    font-size: 540%;
+    padding-left: 4%;
+    padding-bottom: 4%;
+    
+}
+
+.padding {
+    margin-top: 12%;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+}
+
+.second-row {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
