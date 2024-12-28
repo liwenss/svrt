@@ -7,6 +7,8 @@ import Whatwedo from "./homepages/whatwedo";
 import Numbers from "./homepages/numbers";
 import Ceo from "./homepages/ceo";
 import Logos from "./homepages/logos";
+import Upcoming from "./homepages/upcoming";
+import Bottombar from "./components/bottombar";
 
 export default function Home() {
   return (
@@ -66,11 +68,13 @@ export default function Home() {
       <Whatwedo/>
       <div style={{ position: 'relative'}}>
       <Numbers/>
-
-      
       </div>
       <Ceo/>
       <Logos/>
+      <Upcoming/>
+      
+      <Bottombar/>
+
       
     </div>
     

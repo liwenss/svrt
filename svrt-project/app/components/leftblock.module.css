@@ -1,0 +1,22 @@
+.second-vertical {
+    font: Inter;
+    font-size: 120%;
+    font-weight: 600;
+    color: white;
+    line-height: 4.6;
+}
+
+.first-vertical {
+    font: Inter;
+    font-size: 120%;
+    font-weight: 600;
+    color: white;
+    line-height: 4.6;
+    margin-right: 60%;
+
+}
+
+.bottom-part {
+    display: flex;
+    align-items: top;
+}

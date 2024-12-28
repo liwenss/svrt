@@ -1,0 +1,67 @@
+.upcoming-title {
+    font-family: Inter;
+    font-size: 540%;
+    padding-top: 8%;
+    padding-left: 4%;
+}
+
+.eventtitle-and-arrow {
+    display:flex;
+    justify-content: space-between;
+}
+
+.events-and-more {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-right: 4%;
+}
+
+.make-closer {
+    line-height: 0.2;
+}
+
+.more-events {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.my-line {
+    width: 100%;
+    border:none;
+    height: 50px;
+    border-bottom: 3px solid lightgrey;
+    padding-bottom: 2%;
+}
+
+.image-and-events {
+    display: flex;
+    padding-left: 4%;
+    padding-top: 6%;
+    align-items: start;
+ 
+}
+
+.end-of-year {
+    font-family: Inter;
+    font-size: 180%;
+    width: 80%;
+    padding-top: 2%;
+}
+
+.all-events {
+    padding-left: 4%;
+    width: 70%;
+    padding-right: 4%
+}
+
+.myy-arrow {
+    margin-top: 2%;
+}
+
+.small-text {
+    display: flex;
+    gap: 2rem;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
