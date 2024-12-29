@@ -6,15 +6,9 @@ export default function Page() {
   return (
     <div className={styles['padding']}>
       <p className={styles['title']}>About SVRT</p>
-      <p className={styles['main-text']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <p className={styles['main-text']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua.</p>
-      <p className={styles['main-text']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua.</p>
+      <p className={styles['main-text']}>Silicon Valley Real Estate Tech (SVRT) is a California-based venture capital firm that invests in PropTech startups.</p>
+      <p className={styles['main-text']}>We connect real estate, tech, and venture capital professionals, share insights through events, and incubate PropTech startups. Deeply rooted in the real estate industry, SVRT provides mentorship, contracts, and investment to PropTech startups.</p>
+      <p className={styles['main-text']}>Our team unites experts from technology, real estate, and venture capital, blending industry insights, tech innovation, and investment expertise to mentor startups and drive innovation. This unique blend of skills enables us to empower the next generation of innovators and shape the future of the PropTech industry.</p>
 
       <div className={styles['first-row']}>
         <Image
