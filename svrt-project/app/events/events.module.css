@@ -1,0 +1,75 @@
+.padding {
+    padding-top:12%;
+}
+
+.title {
+    font-family: Inter;
+    font-size: 540%;
+    padding-left: 4%;
+}
+
+.maintext {
+    font-family: Inter;
+    padding-left: 4%;
+    padding-top: 2%;
+    font-size: 180%;
+    max-width: 70%;
+}
+
+.company-and-tag {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1%;
+}
+
+.image-and-content {
+    display: flex;
+    margin-left: 4%;
+    margin-top: 4%;
+    align-items: center;
+}
+
+.subtext {
+    padding-top: 1%;
+    font-family: Inter;
+    font-size: 144%;
+}
+
+.button-text {
+    padding-top: 1%;
+    max-width: 50%;
+    font-family: Inter;
+    font-size: 100%;
+    font-weight: 600;
+    background-color: rgb(242, 242, 242);
+    color: black;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border-radius: 30px;
+
+}
+
+.another-maintext {
+    font-family: Inter;
+    font-size: 180%;
+}
+
+.right-half {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.my-line {
+    width: 92%;
+    margin: 0 auto;
+    border:none;
+    height: 50px;
+    border-bottom: 3px solid lightgrey;
+    padding-bottom: 6%;
+}
+
+.some-spacing {
+    padding-top: 2%;
+}
