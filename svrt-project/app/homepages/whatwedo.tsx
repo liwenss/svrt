@@ -27,21 +27,9 @@ export default function Whatwedo() {
                 <p className={styles['what-we-do-subtext']}> Provide structured incubation program including committed contract, advisory and mentorship and direct capital investment
 .</p>
             </div>
-            <hr className={styles['my-line']}/>
+           <div className={styles['spacing']}></div>
 
-            <div className={styles['community-text']}>
-                <p className={styles['build-a-community']}>Lorem ipsum</p>
-                <p className={styles['what-we-do-subtext']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                    ut labore et dolore magna aliqua.</p>
-            </div>
-            <hr className={styles['my-line']}/>
-
-            <div className={styles['community-text']}>
-                <p className={styles['build-a-community']}>Lorem ipsum</p>
-                <p className={styles['what-we-do-subtext']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                    ut labore et dolore magna aliqua.</p>
-            </div>
-            <hr className={styles['my-line']}/>
+      
         </div>
     )
 }

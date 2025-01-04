@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image";
 import Button from '@mui/material/Button';
 import * as React from 'react';
@@ -9,6 +11,7 @@ import Ceo from "./homepages/ceo";
 import Logos from "./homepages/logos";
 import Upcoming from "./homepages/upcoming";
 import Bottombar from "./components/bottombar";
+
 
 export default function Home() {
   return (
@@ -57,27 +60,32 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <Getintouch/>
+      <Getintouch />
       <Image
         src='/past-event.png'
         alt="Description of the image"
         layout="responsive"
-        width={1920}       
-        height={1080} 
+        width={1920}
+        height={1080}
       />
-      <Whatwedo/>
-      <div style={{ position: 'relative'}}>
-      <Numbers/>
+      <section id="about">
+        <Whatwedo />
+      </section>
+      <div style={{ position: 'relative' }}>
+        <Numbers />
       </div>
-      <Ceo/>
-      <Logos/>
-      <Upcoming/>
-      
-      <Bottombar/>
+      <Ceo />
+      <Logos />
+      <Upcoming />
 
-      
+      <Button>Send Email</Button>
+
+      <Bottombar />
+
+
+
     </div>
-    
+
 
 
   );

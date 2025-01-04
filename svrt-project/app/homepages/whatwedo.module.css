@@ -58,5 +58,8 @@
     height: 50px;
     border-bottom: 3px solid lightgrey;
     padding-bottom: 2%;
+}
 
+.spacing {
+    padding-top: 4%;
 }

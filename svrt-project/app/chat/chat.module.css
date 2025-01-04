@@ -1,0 +1,64 @@
+.title {
+    font-family: Inter;
+    font-size: 540%;
+    padding-bottom: 4%;
+}
+
+.padding {
+    padding-top:12%;
+    display: flex;
+}
+
+.maintext {
+    font-family: Inter;
+    padding-left: 4%;
+    padding-top: 2%;
+    font-size: 180%;
+    max-width: 70%;
+}
+
+.subtext {
+    padding-top: 1%;
+    font-family: Inter;
+    font-size: 144%;
+    padding-right: 4%;
+}
+
+.another-maintext {
+    font-family: Inter;
+    font-size: 180%;
+    padding-bottom: 1%;
+    padding-top: 8%;
+}
+
+.small-text {
+    font-family: Inter;
+    text-decoration: underline;
+    padding-top: 3%;
+}
+
+.left-part {
+    padding-left: 4%;
+    width: 40%;
+}
+
+.right-part {
+    padding-left: 8%;
+
+}
+
+.small-label {
+    padding-bottom: 4%;
+    padding-top: 12%;
+}
+
+.the-button {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    width: 220%;
+    margin-top: 12%;
+    font-family: Inter;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
