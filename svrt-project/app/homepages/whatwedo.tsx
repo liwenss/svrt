@@ -17,7 +17,7 @@ export default function Whatwedo() {
 
             <div className={styles['community-text']}>
                 <p className={styles['build-a-community']}>Knowledge Sharing</p>
-                <p className={styles['what-we-do-subtext']}>Execute 3 quarterly seminars and 1 yearly elevator pitch event. Through those events, participants can learn the trend and need of property industry, advancement in technology that can be potentially applied to real estate, and venture capital's evaluation guideline for a PropTech startup.</p>
+                <p className={styles['what-we-do-subtext']}>Execute 3 quarterly seminars, 1 monthly discussion session and 1 yearly elevator pitch event. Through those events, participants can learn the trend and need of property industry, advancement in technology that can be potentially applied to real estate, and venture capital's evaluation guideline for a PropTech startup.</p>
             </div>
             <hr className={styles['my-line']}/>
 
