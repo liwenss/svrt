@@ -28,9 +28,7 @@ export default function Page() {
             <div className={styles['padding']}>
                 <div className={styles['left-part']}>
                     <p className={styles['title']}>Let's chat.</p>
-                    <p className={styles['subtext']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.</p>
+                    <p className={styles['subtext']}>Reach out if you want to get funding or partner with us.</p>
                     <p className={styles['another-maintext']}>Email</p>
                     <p className={styles['small-text']}>hello@svrt.com</p>
                     <p className={styles['another-maintext']}>Socials</p>
