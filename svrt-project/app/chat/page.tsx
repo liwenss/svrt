@@ -38,7 +38,7 @@ export default function Page() {
                 console.error(`Failed to save data: ${errorData.error}`);
             }
         } catch (error) {
-            console.error(`An error occurred while saving to the database: ${error.message}`);
+            console.error(`An error occurred while saving to the database`);
         }
     };
 
