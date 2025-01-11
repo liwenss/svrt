@@ -19,7 +19,7 @@ export default function Getintouch() {
             </div>
             <p className={styles['connect-maintext']}>Silicon Valley Real Estate Tech (SVRT) is a California-based venture capital firm that invests in PropTech startups. Deeply rooted in the real estate industry, SVRT provides mentorship, contracts, and investment to PropTech startups.</p>
             <div className={styles['website']}>
-                <p>hello@svrt.com</p>
+                <p>admin@svrt.info</p>
             </div>
             <div className={styles['about-and-number']}>
                 <Link href="/about" passHref>
