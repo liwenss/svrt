@@ -11,9 +11,12 @@ export default function Croppedbar() {
                 <Leftblock />
                 <div className={styles['right-block']}>
                     <div className={styles['first-horizontal']}>
-                        <p>WeChat</p>
-                        <p>Youtube</p>
-                        <p>Linkedin</p>
+                        <a href="https://drive.google.com/file/d/1Pxi7OOSL_9KwQlZvY-VcVtxIy5nCnJCX/view?usp=sharing" >
+                            <p>WeChat</p>
+                        </a>
+                        <a href="https://www.youtube.com/@SiliconValleyRealEstateTech" >
+                            <p>Youtube</p>
+                        </a>
                     </div>
                     <div className={styles['email-and-number']}>
                         <p className={styles['email']}>admin@svrt.info</p>
