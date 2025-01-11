@@ -51,9 +51,12 @@ export default function Page() {
                     <p className={styles['another-maintext']}>Email</p>
                     <p className={styles['small-text']}>admin@svrt.info</p>
                     <p className={styles['another-maintext']}>Socials</p>
-                    <p className={styles['small-text']}>WeChat</p>
-                    <p className={styles['small-text']}>Youtube</p>
-                    <p className={styles['small-text']}>Linkedin</p>
+                    <div>
+                        <a href="https://drive.google.com/file/d/1Pxi7OOSL_9KwQlZvY-VcVtxIy5nCnJCX/view?usp=sharing" className={styles['small-text']}>WeChat</a>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/@SiliconValleyRealEstateTech" className={styles['small-text']}>Youtube</a>
+                    </div>
                 </div>
                 <div className={styles['right-part']}>
                     <p className={styles['small-label']}>Name</p>
