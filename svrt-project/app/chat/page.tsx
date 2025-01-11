@@ -49,7 +49,7 @@ export default function Page() {
                     <p className={styles['title']}>Let's chat.</p>
                     <p className={styles['subtext']}>Reach out if you want to get funding or partner with us.</p>
                     <p className={styles['another-maintext']}>Email</p>
-                    <p className={styles['small-text']}>hello@svrt.com</p>
+                    <p className={styles['small-text']}>admin@svrt.info</p>
                     <p className={styles['another-maintext']}>Socials</p>
                     <p className={styles['small-text']}>WeChat</p>
                     <p className={styles['small-text']}>Youtube</p>
