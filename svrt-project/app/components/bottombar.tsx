@@ -30,7 +30,7 @@ export default function Bottombar() {
                         </a>
                     </div>
                     <div className={styles['email-and-number']}>
-                        <p className={styles['email']}>hello@svrt</p>
+                        <p className={styles['email']}>admin@svrt.info</p>
                         <p className={styles['number']}>+1 222 333 444</p>
                     </div>
                 </div>
