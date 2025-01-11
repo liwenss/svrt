@@ -17,7 +17,7 @@ export default function Upcoming() {
 
             <div className={styles['image-and-events']}>
                 <Image
-                    src="/grey-image.png"
+                    src="/pexels-mikegles-29180881.jpg"
                     alt="Description of the image"
                     width={440}
                     height={800}
