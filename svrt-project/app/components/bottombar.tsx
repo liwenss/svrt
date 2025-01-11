@@ -22,7 +22,7 @@ export default function Bottombar() {
                 <Leftblock />
                 <div className={styles['right-block']}>
                     <div className={styles['first-horizontal']}>
-                        <a href="https://drive.google.com/file/d/1Pxi7OOSL_9KwQlZvY-VcVtxly5nCnJCX/view?usp=share_link" >
+                        <a href="https://drive.google.com/file/d/1Pxi7OOSL_9KwQlZvY-VcVtxIy5nCnJCX/view?usp=sharing" >
                             <p>WeChat</p>
                         </a>
                         <a href="https://www.youtube.com/@SiliconValleyRealEstateTech" >
