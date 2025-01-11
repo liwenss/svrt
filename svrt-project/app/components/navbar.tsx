@@ -11,22 +11,69 @@ import MenuIcon from '@mui/icons-material/Menu';
 import styles from '@/app/components/navbar.module.css';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
+import { useState, useEffect } from 'react';
 
 
 
 
 export default function Navbar() {
   const pathname = usePathname();
+  const [isScrolled, setIsScrolled] = useState(false);
 
-  const isActive = (link: string) => pathname === link ? 'white' : 'black';
-  const buttonClass = pathname === '/' ? styles['home-navbar-button'] : styles['navbar-button'];
-  const buttonFont = pathname === '/' ? styles['home-navbar-button-font'] : styles['navbar-button-font'];
-  const logoPath = pathname === '/' ? '/svrt white.png' : '/svrt-black.png';
+  
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50); 
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const background = pathname === '/' 
+  ? isScrolled 
+    ? 'white' 
+    : 'transparent' 
+  : 'white';
+
+  const logoPath = pathname === '/' ? 
+  isScrolled
+  ? '/svrt-black.png':
+  '/svrt white.png' : 
+  '/svrt-black.png';
+
+  const buttonFont = pathname === '/' ? 
+  isScrolled
+  ? styles['navbar-button-font']:
+  styles['home-navbar-button-font'] : 
+  styles['navbar-button-font'];
+
+  const buttonClass = pathname === '/' ? 
+  isScrolled
+  ? styles['navbar-button']:
+  styles['home-navbar-button'] : 
+  styles['navbar-button'];
+
+  const isActive = (link: string) => pathname === link ? 
+  isScrolled
+  ? 'black':
+  'white' : 'black';
+
+  const shade = 
+  isScrolled
+  ? 'gray':
+  'none';
+
+
+
 
   return (
     <div>
       <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="absolute" sx={{ backgroundColor: 'transparent', boxShadow: 'none' }}>
+        <AppBar position="fixed" sx={{ backgroundColor: background, boxShadow: shade }}>
           <Toolbar className={styles['overall-navbar']}>
             <Image
               src={logoPath}
@@ -40,7 +87,7 @@ export default function Navbar() {
                   Home
                 </Typography>
               </Link>
-              <Link href="/#about" passHref>
+              <Link href="/about" passHref>
                 <Typography variant="h6" component="div" sx={{ color: isActive('/'), flexGrow: 1, fontSize: '110%' }}>
                   About
                 </Typography>

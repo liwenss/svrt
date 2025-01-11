@@ -11,55 +11,22 @@ import Ceo from "./homepages/ceo";
 import Logos from "./homepages/logos";
 import Upcoming from "./homepages/upcoming";
 import Bottombar from "./components/bottombar";
-
+import Styles from './entirepage.module.css'
 
 export default function Home() {
   return (
     <div>
-      <div style={{ position: 'relative', height: '100vh' }}>
-        <Image
-          src="/numberbase.png"
-          alt="Description of the image"
-          layout="fill"
-        />
-        <div
-          style={{
-            position: "absolute",
-            zIndex: 1,
-            color: "white",
-            textAlign: "left",
-            paddingTop: "10%",
-            paddingLeft: "4%",
-            fontFamily: "inter",
-            fontSize: "900%",
-            maxWidth: "90%",
-            lineHeight: "1",
-            alignSelf: "right"
-          }}
-        >
-          <p>Invest the Future of Real Estate</p>
-        </div>
-
-        <div
-          style={{
-            position: "absolute",
-            zIndex: 1,
-            color: "white",
-            textAlign: "right",
-            paddingTop: "36%",
-            right: "4%",
-            fontFamily: "inter",
-            fontSize: "186%",
-            width: "71%",
-          }}
-        >
-          <p>
+      <div className={Styles['my-background']}>
+        <p className={Styles['big-text']}>Invest the Future of Real Estate</p>
+        <div className={Styles['my-container']}>
+          <p className={Styles['sub-text']}>
             We are the investors, innovators and leaders of PropTech shaping the future of real estate.
             We create an influential community that connects real estate professionals, technology professionals
             and entrepreneurs, venture capitalists.
           </p>
         </div>
       </div>
+
       <Getintouch />
       <Image
         src='/past-event.png'
@@ -77,9 +44,6 @@ export default function Home() {
       <Ceo />
       <Logos />
       <Upcoming />
-
-      <Button>Send Email</Button>
-
       <Bottombar />
 
 

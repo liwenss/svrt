@@ -1,0 +1,41 @@
+.aum {
+    font-family: Inter;
+    color: white;
+    font-size: 344%;   
+}
+
+.words {
+    font-family: Inter;
+    color: white;
+    font-size: 144%;
+}
+
+.big-text {
+    font-family: Inter;
+    color: white;
+    font-size: 540%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.background {
+    background-image: url('/numberbase.png'); 
+    background-size: cover;
+}
+
+.block {
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+.three-blocks {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-bottom: 10%;
+    
+}

@@ -1,0 +1,36 @@
+.big-text {
+    color: white;
+    text-align: left;
+    padding-top: 12%;
+    margin-left: 4%;
+    font-family: inter;
+    font-size: 900%;
+    max-width: 90%;
+    line-height: 1;
+    align-self: right
+}
+
+.sub-text {
+    color: white;
+    text-align: right;
+    align-self: right;
+    align-items: right;
+    font-family: inter;
+    font-size: 186%;
+    width: 71%;
+    margin-right: 4%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.my-container {
+    display: flex;
+    justify-content: flex-end; 
+
+}
+
+.my-background {
+    background-image: url('/numberbase.png'); 
+    background-size: cover; 
+    
+}
