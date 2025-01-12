@@ -9,9 +9,9 @@ export default function Page() {
   return (
     <div className={styles['padding']}>
       <p className={styles['title']}>What we Invest In</p>
-      <p className={styles['maintext']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua.</p>
+      <p className={styles['maintext']}>Our Portfolio features technology innovators reshaping the real estate industry. 
+        With deep industry ties, SVRT offers unique contracts and growth opportunities to our invested companies. 
+        Reach out to us for collaborations, contracts, or direct financing to drive your business forward.</p>
       <div className={styles['image-and-content']}>
         <Image
           src='/logo9.png'
