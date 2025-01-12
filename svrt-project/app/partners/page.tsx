@@ -10,9 +10,9 @@ export default function Page() {
     <div className={styles['padding']}>
       <p className={styles['title']}>We partner with</p>
       <p className={styles['maintext']}>SVRT proudly collaborates with industry-leading companies across the entire real estate value chain, 
-        including acquisition, financing, development and construction, asset management, and disposition. These strategic partnerships enable 
+        including acquisition, financing, development, management, and disposition. This enables 
         us to offer unparalleled resources and expertise to our portfolio companies. Whether you're seeking collaborations, contracts, or direct 
-        financing, our network provides the support and connections necessary to drive innovation and growth in the real estate sector. 
+        financing, SVRT provides the support and connections necessary to drive innovation and growth. 
         Reach out to us to explore how we can help your business thrive.</p>
       <div className={styles['image-and-content']}>
         <Image
