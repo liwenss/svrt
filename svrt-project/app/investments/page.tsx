@@ -103,7 +103,6 @@ export default function Page() {
             customizable living spaces. Their services cover everything from permits to financing, providing a seamless experience for homeowners.</p>
         </div>
       </div>
-      <hr className={styles['my-line']}/>
 
       <div className={styles['some-spacing']}></div>
       <Bottombar/>

@@ -28,7 +28,7 @@
     display: flex;
     margin-left: 4%;
     margin-top: 4%;
-    align-items: top;
+    align-items: center;
 }
 
 .subtext {
@@ -48,6 +48,8 @@
 .right-half {
     padding-left: 4%;
     padding-right: 4%;
+    text-align: left;
+    max-width: 66%;
 }
 
 .my-line {
@@ -67,4 +69,10 @@
     display: flex;
     font-family: Inter;
     gap: 2%;
+}
+
+.image-wrapper {
+
+    max-width: 500px; 
+
 }
