@@ -4,9 +4,24 @@
     padding-bottom: 4%;
 }
 
+@media (max-width: 541px) {
+    .title {
+        font-size: 240%;
+        margin-top: 20%;
+        margin-bottom: 2%;
+        padding-left: 4%;
+    }   
+}
+
+
 .padding {
     padding-top:12%;
     display: flex;
+}
+@media (max-width: 541px) {
+    .padding {
+        flex-direction: column;
+    }   
 }
 
 .maintext {
@@ -24,6 +39,12 @@
     padding-right: 4%;
 }
 
+@media (max-width: 541px) {
+    .subtext {
+        padding-left: 4%;
+    }   
+}
+
 .another-maintext {
     font-family: Inter;
     font-size: 180%;
@@ -31,15 +52,32 @@
     padding-top: 8%;
 }
 
+@media (max-width: 541px) {
+    .another-maintext {
+        padding-left: 4%;
+    }   
+}
+
 .small-text {
     font-family: Inter;
     text-decoration: underline;
     padding-top: 3%;
 }
+@media (max-width: 541px) {
+    .small-text {
+        padding-left: 4%;
+    }   
+}
 
 .left-part {
     padding-left: 4%;
     width: 40%;
+}
+
+@media (max-width: 541px) {
+    .left-part {
+        width: 100%;
+    }   
 }
 
 .right-part {
@@ -62,3 +100,20 @@
     padding-top: 3%;
     padding-bottom: 3%;
 }
+
+@media (max-width: 541px) {
+    .the-button {
+      width: 90%; 
+    }
+  }
+
+.text-field {
+    width: 220%;
+  }
+  
+
+  @media (max-width: 541px) {
+    .text-field {
+      width: 90%; 
+    }
+  }

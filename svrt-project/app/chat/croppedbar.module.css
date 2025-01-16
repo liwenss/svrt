@@ -1,12 +1,19 @@
 .background {
     background-image: url('/cropped-bottom-base.png'); 
     background-size: contain; 
-    background-position: center; 
+    background-position: bottom center; 
     background-repeat: no-repeat; 
     width: 100%; 
     height: 100vh;
     margin-bottom: 0;
     margin-top: 2%;
+}
+
+@media (max-width: 1200px) {
+    .background {
+        background-size: cover;
+    }
+    
 }
 
 .my-button {
@@ -38,7 +45,7 @@
     padding-left: 4%;
     justify-content: space-between;
     padding-right: 4%;
-    padding-top: 14%;
+    padding-top: 24%;
 }
 
 .right-block {

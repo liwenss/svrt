@@ -2,10 +2,26 @@
     padding-top:12%;
 }
 
+@media (max-width: 541px) {
+    .image-wrapper{
+        max-height: 140px;
+        margin-bottom: 80px;
+        margin-top: 40px;
+    }  
+}
+
 .title {
     font-family: Inter;
     font-size: 540%;
     padding-left: 4%;
+}
+
+@media (max-width: 541px) {
+    .title {
+        font-size: 240%;
+        margin-top: 8%;
+        margin-bottom: 2%;
+    }  
 }
 
 .maintext {
@@ -14,6 +30,14 @@
     padding-top: 2%;
     font-size: 180%;
     max-width: 70%;
+}
+
+@media (max-width: 541px) {
+    .maintext {
+        font-size: 120%;
+        max-width: 100%;
+        padding-right: 4%;
+    }  
 }
 
 .company-and-tag {
@@ -29,10 +53,23 @@
     align-items: center;
 }
 
+@media (max-width: 541px) {
+    .image-and-content {
+        display: flex;
+        flex-direction: column;
+        margin-top:0;
+    }  
+}
+
 .subtext {
     padding-top: 1%;
     font-family: Inter;
     font-size: 144%;
+}
+@media (max-width: 541px) {
+    .subtext {
+        font-size: 120%;
+    }  
 }
 
 .button-text {

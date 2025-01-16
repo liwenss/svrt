@@ -7,7 +7,15 @@
     font-size: 540%;
     padding-left: 4%;
     padding-bottom: 4%;
+}
 
+@media (max-width: 541px) {
+    .title {
+        font-size: 240%;
+        margin-top: 8%;
+        margin-bottom: 2%;
+    }
+    
 }
 
 .maintext {
@@ -17,6 +25,7 @@
     font-size: 180%;
     max-width: 70%;
 }
+
 
 .company-and-tag {
     display: flex;
@@ -31,6 +40,13 @@
     align-items: center;
 }
 
+@media (max-width: 541px) {
+    .image-and-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .subtext {
     padding-top: 1%;
     font-family: Inter;
@@ -39,10 +55,25 @@
     padding-bottom: 5%;
 }
 
+@media (max-width: 541px) {
+    .subtext {
+        font-size: 140%;
+    
+    }
+    
+}
+
 .another-maintext {
     font-family: Inter;
     font-size: 180%;
     padding-bottom: 5%;
+}
+
+@media (max-width: 541px) {
+    .another-maintext {
+        font-size: 200%;
+    }
+    
 }
 
 .right-half {
@@ -50,6 +81,15 @@
     padding-right: 4%;
     text-align: left;
     max-width: 66%;
+}
+@media (max-width: 541px) {
+    .right-half {
+       max-width: 100%;
+       padding-left: 0%;
+       padding-right: 0%;
+    
+    }
+    
 }
 
 .my-line {
@@ -72,7 +112,13 @@
 }
 
 .image-wrapper {
-
     max-width: 500px; 
-
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media (max-width: 541px) {
+    .image-wrapper {
+        max-width: 200px;
+    }
+    
 }
