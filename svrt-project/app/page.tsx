@@ -11,7 +11,8 @@ import Ceo from "./homepages/ceo";
 import Logos from "./homepages/logos";
 import Upcoming from "./homepages/upcoming";
 import Bottombar from "./components/bottombar";
-import Styles from './entirepage.module.css'
+import Styles from './entirepage.module.css';
+import Pastevents from "./homepages/pastevents";
 
 export default function Home() {
   return (
