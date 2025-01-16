@@ -1,5 +1,4 @@
 "use client"
-
 import Image from "next/image";
 import Button from '@mui/material/Button';
 import * as React from 'react';
@@ -13,9 +12,11 @@ import Upcoming from "./homepages/upcoming";
 import Bottombar from "./components/bottombar";
 import Styles from './entirepage.module.css';
 import Pastevents from "./homepages/pastevents";
+import { StyledEngineProvider } from '@mui/material/styles';
 
 export default function Home() {
   return (
+    <StyledEngineProvider injectFirst>
     <div>
       <div className={Styles['my-background']}>
         <p className={Styles['big-text']}>Invest the Future of Real Estate</p>
@@ -50,6 +51,7 @@ export default function Home() {
 
 
     </div>
+    </StyledEngineProvider>
 
 
 
