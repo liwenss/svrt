@@ -48,9 +48,8 @@
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     border-radius: 30px;
-
 }
-.MuiButton-text {
+.button-text .MuiButton-text {
     padding-top: 1%;
     max-width: 50%;
     font-family: Inter;
@@ -63,8 +62,6 @@
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     border-radius: 30px;
-
-
 }
 
 .another-maintext {
