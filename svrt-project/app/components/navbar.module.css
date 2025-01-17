@@ -52,3 +52,10 @@
     font-family: Inter;
     font-weight: 600;
 }
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+    font-size: 140%;
+    padding: 3%
+}

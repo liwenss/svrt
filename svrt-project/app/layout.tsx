@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from '@/app/components/navbar';
 import * as React from 'react';
 import { inter } from '@/app/components/fonts';
-
+import Topbar from "./components/topbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,7 +31,7 @@ export default function RootLayout({
       <body
         className={`${inter.className}`}
       >
-        <Navbar/>
+        <Topbar/>
         {children}
       </body>
     </html>
