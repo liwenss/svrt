@@ -16,7 +16,22 @@
 
 }
 
+@media (max-width: 541px) {
+    .first-vertical {
+        margin-right: 30px;
+        
+    }
+    
+}
+
 .bottom-part {
     display: flex;
     align-items: top;
+}
+
+@media (max-width: 541px) {
+    .bottom-part {
+        gap: 0px;
+    }
+    
 }
