@@ -7,6 +7,12 @@
     text-align: center;
 }
 
+@media (max-width: 541px) {
+    .ceo-maintext{
+        font-size: 130%;
+    }  
+}
+
 .centering {
     display:flex;
     justify-content: center;
@@ -25,10 +31,20 @@
     font-family: Inter;
     font-size: 144%;
 }
+@media (max-width: 541px) {
+    .bold-text {
+        font-size: 100%;
+    } 
+}
 
 .ceo-description {
     font-family: Inter;
     font-size: 144%;
+}
+@media (max-width: 541px) {
+    .ceo-description {
+        font-size: 100%;
+    } 
 }
 
 .circle-icon {
@@ -38,4 +54,10 @@
 }
 .circle {
     transform: scale(3);
+}
+
+@media (max-width: 541px) {
+    .circle {
+        transform: scale(1.4);
+    } 
 }

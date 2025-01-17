@@ -10,11 +10,23 @@
     font-size: 140%;
 }
 
+@media (max-width: 541px) {
+    .silicon-valley-based {
+        font-size: 100%
+    }  
+}
+
 .connect-maintext {
     font-family: Inter;
     padding-left: 4%;
     padding-right: 4%;
     font-size: 270%;
+}
+
+@media (max-width: 541px) {
+    .connect-maintext {
+        font-size: 130%;
+    }  
 }
 
 .about-and-number {
@@ -27,7 +39,11 @@
     font-weight: 600;
     padding-bottom: 8%;
 }
-
+@media (max-width: 541px) {
+    .about-and-number {
+        font-size: 100%;
+    }  
+}
 .website {
     padding-left: 4%;
     text-align: right;
@@ -38,9 +54,23 @@
     font-weight: 600;
 }
 
+@media (max-width: 541px) {
+    .website {
+      
+    }  
+}
+
 .capital-us {
     display: flex;
 }
+
+@media (max-width: 541px) {
+    .capital-us {
+        display: flex;
+        flex-direction: column;
+    }  
+}
+
 
 .silicon-valley-us {
     align-items: left;
@@ -54,6 +84,12 @@
     min-width: 60%;
 }
 
+@media (max-width: 541px) {
+    .venture-capital {
+        min-width: 100%
+    }  
+}
+
 .in-touch-button {
     font-family: Inter;
     color: black;
@@ -64,6 +100,10 @@
     border-color: black;
     padding-top: 0.5%;
     padding-bottom: 0.5%;
-    
-    
+}
+
+@media (max-width: 541px) {
+    .in-touch-button {
+        font-size: 100%;
+    }  
 }

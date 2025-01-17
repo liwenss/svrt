@@ -5,6 +5,23 @@
     padding-left: 4%;
 }
 
+@media (max-width: 541px) {
+    .upcoming-title {
+        font-size: 240%;
+    } 
+}
+
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+}
+
+
+
 .eventtitle-and-arrow {
     display:flex;
     justify-content: space-between;
@@ -26,6 +43,13 @@
     text-decoration: underline;
 }
 
+@media (max-width: 541px) {
+    .more-events{
+        font-size: 100%;
+    
+    } 
+}
+
 .my-line {
     width: 100%;
     border:none;
@@ -39,8 +63,15 @@
     padding-left: 4%;
     padding-top: 6%;
     align-items: start;
- 
 }
+
+@media (max-width: 541px) {
+    .image-and-events {
+        display: flex;
+        flex-direction: column;
+    } 
+}
+
 
 .end-of-year {
     font-family: Inter;
@@ -48,12 +79,25 @@
     width: 80%;
     padding-top: 2%;
 }
+@media (max-width: 541px) {
+    .end-of-year {
+        font-size: 130%;
+    } 
+}
 
 .all-events {
     padding-left: 4%;
     width: 70%;
     padding-right: 4%
 }
+
+@media (max-width: 541px) {
+    .all-events {
+        width: 100%;
+        margin-top: 20px;
+    } 
+}
+
 
 .myy-arrow {
     margin-top: 2%;

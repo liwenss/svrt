@@ -15,7 +15,7 @@ export default function Getintouch() {
                     <p className={styles['silicon-valley-us']}> Silicon Valley, US</p>
                 </div>
                 <Button component="a"
-  href="/chat" variant="outlined" className={styles['in-touch-button']}>GET IN TOUCH <ArrowRightAltIcon/></Button>
+                    href="/chat" variant="outlined" className={styles['in-touch-button']}>GET IN TOUCH <ArrowRightAltIcon /></Button>
             </div>
             <p className={styles['connect-maintext']}>Silicon Valley Real Estate Tech (SVRT) is a California-based venture capital firm that invests in PropTech startups. Deeply rooted in the real estate industry, SVRT provides mentorship, contracts, and investment to PropTech startups.</p>
             <div className={styles['website']}>
@@ -23,7 +23,7 @@ export default function Getintouch() {
             </div>
             <div className={styles['about-and-number']}>
                 <Link href="/about" passHref>
-                <p>ABOUT SVRT</p>
+                    <p>ABOUT SVRT</p>
                 </Link>
             </div>
         </div>

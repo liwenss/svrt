@@ -10,6 +10,17 @@
     align-self: right
 }
 
+@media (max-width: 541px) {
+    .big-text {
+        display: flex;
+        font-size: 300%;
+        padding-top: 20%;
+        line-height: 1.5;
+        justify-content: center;
+        text-align: center;
+    }  
+}
+
 .sub-text {
     color: white;
     text-align: right;
@@ -21,6 +32,18 @@
     margin-right: 4%;
     margin-top: 6%;
     margin-bottom: 6%;
+}
+
+@media (max-width: 541px) {
+    .sub-text {
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        font-size: 130%;
+        padding-top: 4%;
+        line-height: 1.5;
+        width: 90%;
+    }  
 }
 
 .my-container {

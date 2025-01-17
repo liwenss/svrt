@@ -2,6 +2,11 @@
     font-family: Inter;
     font-size: 540%;
 }
+@media (max-width: 541px) {
+    .what-we-do {
+        font-size: 240%;
+    }  
+}
 
 .we-do {
     padding-top: 8%;
@@ -10,7 +15,12 @@
     padding-left: 4%;
     padding-right: 4%;
     align-items: baseline;
-    
+}
+@media (max-width: 541px) {
+    .we-do {
+        display: flex;
+        flex-direction: column;
+    }  
 }
 
 .what-we-do-maintext {
@@ -21,11 +31,24 @@
     max-width: 70%;
 }
 
+@media (max-width: 541px) {
+    .what-we-do-maintext {
+        font-size: 130%;
+    }  
+}
+
 .our-portfolio {
     font-family: Inter;
     text-decoration: underline;
     font-size: 120%;
     font-weight: 600;
+}
+
+@media (max-width: 541px) {
+    .our-portfolio {
+        font-size: 100%;
+        margin-top: 10px;
+    }  
 }
 
 .community-text {
@@ -39,9 +62,23 @@
     padding-bottom: 2%;
 }
 
+@media (max-width: 541px) {
+    .community-text {
+        display: flex;
+        flex-direction: column;
+    }  
+}
+
+
 .build-a-community {
     font-family: Inter;
     font-size: 344%;
+}
+
+@media (max-width: 541px) {
+    .build-a-community {
+        font-size: 200%;
+    }  
 }
 
 .what-we-do-subtext {
@@ -51,6 +88,13 @@
     font-size: 144%;
 }
 
+@media (max-width: 541px) {
+    .what-we-do-subtext {
+        font-size: 120%;
+        max-width: 92%
+    }  
+}
+
 .my-line {
     width: 92%;
     margin: 0 auto;
@@ -58,6 +102,13 @@
     height: 50px;
     border-bottom: 3px solid lightgrey;
     padding-bottom: 2%;
+}
+
+@media (max-width: 541px) {
+    .my-line {
+        height: 20px;
+        padding-bottom: 0%;
+    }  
 }
 
 .spacing {
