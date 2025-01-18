@@ -15,14 +15,15 @@ export default function Page() {
         financing, SVRT provides the support and connections necessary to drive innovation and growth. 
         Reach out to us to explore how we can help your business thrive.</p>
       <div className={styles['image-and-content']}>
-        <div className={styles['image-wrapper']}>
+    
         <Image
           src='/Ratedna-05.png'
           alt="Description of the image"
           width={254}
           height={1080}
+          className={styles['image-wrapper']}
         />
-        </div>
+  
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>Rate DNA</p>
@@ -36,14 +37,15 @@ export default function Page() {
       <hr className={styles['my-line']}/>
 
       <div className={styles['image-and-content']}>
-      <div className={styles['image-wrapper']}>
+  
         <Image
           src='/yeelee.png'
           alt="Description of the image"
           width={254}
           height={1080}
+          className={styles['image-wrapper']}
         />
-        </div>
+   
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>Yeelee Capital</p>
@@ -59,14 +61,15 @@ export default function Page() {
       <hr className={styles['my-line']}/>
 
       <div className={styles['image-and-content']}>
-      <div className={styles['image-wrapper']}>
+      
         <Image
           src='/logo9.png'
           alt="Description of the image"
           width={254}
           height={1080}
+          className={styles['image-wrapper']}
         />
-        </div>
+ 
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>AL Homes</p>
@@ -82,14 +85,15 @@ export default function Page() {
       <hr className={styles['my-line']}/>
 
       <div className={styles['image-and-content']}>
-      <div className={styles['image-wrapper']}>
+    
         <Image
           src='/TDDG.png'
           alt="Description of the image"
           width={254}
           height={1080}
+          className={styles['image-wrapper']}
         />
-        </div>
+  
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>TDDG</p>
@@ -105,14 +109,15 @@ export default function Page() {
       <hr className={styles['my-line']}/>
 
       <div className={styles['image-and-content']}>
-      <div className={styles['image-wrapper']}>
+  
         <Image
           src='/Apex-Logo-19.png'
           alt="Description of the image"
           width={254}
           height={1080}
+          className={styles['image-wrapper']}
         />
-        </div>
+
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>Apex Homes</p>
@@ -129,14 +134,15 @@ export default function Page() {
       <hr className={styles['my-line']}/>
 
       <div className={styles['image-and-content']}>
-      <div className={styles['image-wrapper']}>
+   
         <Image
           src='/Speed.png'
           alt="Description of the image"
           width={254}
           height={1080}
+          className={styles['image-wrapper']}
         />
-        </div>
+
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>Speed</p>
@@ -150,14 +156,15 @@ export default function Page() {
       </div>
       <hr className={styles['my-line']}/>
       <div className={styles['image-and-content']}>
-      <div className={styles['image-wrapper']}>
+
         <Image
           src='/ayla.png'
           alt="Description of the image"
           width={254}
           height={1080}
+          className={styles['image-wrapper']}
         />
-        </div>
+
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>Ayla</p>
@@ -171,14 +178,15 @@ export default function Page() {
       </div>
       <hr className={styles['my-line']}/>
       <div className={styles['image-and-content']}>
-      <div className={styles['image-wrapper']}>
+
         <Image
           src='/KASSA.png'
           alt="Description of the image"
           width={254}
           height={1080}
+          className={styles['image-wrapper']}
         />
-        </div>
+
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>KASSA</p>
@@ -195,14 +203,15 @@ export default function Page() {
       <hr className={styles['my-line']}/>
 
       <div className={styles['image-and-content']}>
-      <div className={styles['image-wrapper']}>
+  
         <Image
           src='/SoLeap.png'
           alt="Description of the image"
           width={254}
           height={1080}
+          className={styles['image-wrapper']}
         />
-        </div>
+
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>SoLeap</p>
@@ -215,14 +224,15 @@ export default function Page() {
       </div>
       <hr className={styles['my-line']}/>
       <div className={styles['image-and-content']}>
-        <div className={styles['image-wrapper']}>
+    
         <Image
           src='/JMH Weiss.png'
           alt="Description of the image"
           width={254}
           height={1080}
+          className={styles['image-wrapper']}
         />
-        </div>
+
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>JWH Weiss</p>
@@ -240,14 +250,15 @@ export default function Page() {
       </div>
       <hr className={styles['my-line']}/>
       <div className={styles['image-and-content']}>
-      <div className={styles['image-wrapper']}>
+     
         <Image
           src='/tranvu.png'
           alt="Description of the image"
           width={254}
           height={1080}
+          className={styles['image-wrapper']}
         />
-        </div>
+     
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>Tranvu, LLC</p>
@@ -261,14 +272,15 @@ export default function Page() {
       </div>
       <hr className={styles['my-line']}/>
       <div className={styles['image-and-content']}>
-      <div className={styles['image-wrapper']}>
+     
         <Image
           src='/alphax-re.png'
           alt="Description of the image"
           width={254}
           height={1080}
+          className={styles['image-wrapper']}
         />
-        </div>
+  
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>AlphaX RE Capital</p>
@@ -286,14 +298,15 @@ export default function Page() {
       </div>
       <hr className={styles['my-line']}/>
       <div className={styles['image-and-content']}>
-      <div className={styles['image-wrapper']}>
+   
         <Image
           src='/Asky.png'
           alt="Description of the image"
           width={254}
           height={1080}
+          className={styles['image-wrapper']}
         />
-        </div>
+
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>Asky</p>
@@ -307,14 +320,15 @@ export default function Page() {
       </div>
       <hr className={styles['my-line']}/>
       <div className={styles['image-and-content']}>
-      <div className={styles['image-wrapper']}>
+  
         <Image
           src='/axis.png'
           alt="Description of the image"
           width={254}
           height={1080}
+          className={styles['image-wrapper']}
         />
-        </div>
+   
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>Axis Realty</p>
@@ -331,14 +345,15 @@ export default function Page() {
       </div>
       <hr className={styles['my-line']}/>
       <div className={styles['image-and-content']}>
-      <div className={styles['image-wrapper']}>
+
         <Image
           src='/Aspire Logo.png'
           alt="Description of the image"
           width={254}
           height={1080}
+          className={styles['image-wrapper']}
         />
-        </div>
+ 
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>Aspire Homes</p>

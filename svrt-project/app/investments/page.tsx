@@ -13,14 +13,15 @@ export default function Page() {
         With deep industry ties, SVRT offers unique contracts and growth opportunities to our invested companies.
         Reach out to us for collaborations, contracts, or direct financing to drive your business forward.</p>
       <div className={styles['image-and-content']}>
-        <div className={styles['image-wrapper']}>
+     
           <Image
             src='/logo_zeitro.jpg'
             alt="Description of the image"
             width={254}
             height={1080}
+            className={styles['image-wrapper']}
           />
-        </div>
+     
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <a href="https://www.zeitro.com" target="_blank" rel="noopener noreferrer" className={styles['another-maintext']}>Zeitro</a>
@@ -35,14 +36,15 @@ export default function Page() {
       <hr className={styles['my-line']} />
 
       <div className={styles['image-and-content']}>
-        <div className={styles['image-wrapper']}>
+     
           <Image
             src='/logo_parcelz.png'
             alt="Description of the image"
             width={254}
             height={1080}
+            className={styles['image-wrapper']}
           />
-        </div>
+ 
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <a href="https://www.parcel-z.com" target="_blank" rel="noopener noreferrer" className={styles['another-maintext']}>Parcel Z</a>
@@ -55,14 +57,15 @@ export default function Page() {
       <hr className={styles['my-line']} />
 
       <div className={styles['image-and-content']}>
-        <div className={styles['image-wrapper']}>
+       
           <Image
             src='/logo_ayla.png'
             alt="Description of the image"
             width={254}
             height={1080}
+            className={styles['image-wrapper']}
           />
-        </div>
+  
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <a href="https://www.designbyayla.com" target="_blank" rel="noopener noreferrer" className={styles['another-maintext']}>Ayla</a>
@@ -75,14 +78,15 @@ export default function Page() {
       <hr className={styles['my-line']} />
 
       <div className={styles['image-and-content']}>
-        <div className={styles['image-wrapper']}>
+     
           <Image
             src='/logo_kassa.png'
             alt="Description of the image"
             width={254}
             height={1080}
+            className={styles['image-wrapper']}
           />
-        </div>
+  
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <a href="https://www.kassacabinet.com" target="_blank" rel="noopener noreferrer" className={styles['another-maintext']}>Kassa</a>
@@ -95,14 +99,15 @@ export default function Page() {
       <hr className={styles['my-line']} />
 
       <div className={styles['image-and-content']}>
-        <div className={styles['image-wrapper']}>
+       
           <Image
             src='/logo_apex_homes.png'
             alt="Description of the image"
             width={254}
             height={1080}
+            className={styles['image-wrapper']}
           />
-        </div>
+    
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <a href="https://www.apex-homes.us" target="_blank" rel="noopener noreferrer" className={styles['another-maintext']}>Apex Homes</a>
