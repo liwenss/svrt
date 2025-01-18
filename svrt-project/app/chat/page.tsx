@@ -60,16 +60,16 @@ export default function Page() {
                 </div>
                 <div className={styles['right-part']}>
                     <p className={styles['small-label']}>Name</p>
-                    <TextField id="filled-basic" label="Name" variant="outlined" className={styles['text-field']} 
+                    <TextField id="filled-basic" label="Name" variant="filled" className={styles['text-field']} 
                         value={name}
                         onChange={(e) => setName(e.target.value)} 
                        />
                     <p className={styles['small-label']}>Email</p>
-                    <TextField id="filled-basic" label="Email" variant="outlined" className={styles['text-field']} 
+                    <TextField id="filled-basic" label="Email" variant="filled" className={styles['text-field']} 
                         value={email}
                         onChange={(e) => setEmail(e.target.value)} />
                     <p className={styles['small-label']}>Message</p>
-                    <TextField id="filled-basic" label="Message" variant="outlined" className={styles['text-field']}  multiline minRows={6}
+                    <TextField id="filled-basic" label="Message" variant="filled" className={styles['text-field']}  multiline minRows={6}
                         value={message}
                         onChange={(e) => setMessage(e.target.value)} />
                     <Button className={styles['the-button']} onClick={handleSubmit}>Submit</Button>

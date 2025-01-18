@@ -108,14 +108,16 @@
   }
 
 .text-field {
-    width: 220%;
-    background-color: light gray;
+    width: 220% !important;
+    background-color: light gray !important;
   }
   
 
   @media (max-width: 541px) {
     .text-field {
-      width: 90%; 
+      width: 90% !important; 
+      border: 2px solid white !important;
+  border-radius: 5px !important; 
    
 
     }
