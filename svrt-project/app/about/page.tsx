@@ -11,58 +11,50 @@ export default function Page() {
       <p className={styles['main-text']}>Our team unites experts from technology, real estate, and venture capital, blending industry insights, tech innovation, and investment expertise to mentor startups and drive innovation. This unique blend of skills enables us to empower the next generation of innovators and shape the future of the PropTech industry.</p>
 
       <div className={styles['first-row']}>
-        <Image
-          src='/teammember.png'
-          alt="Description of the image"
-          width={254}
-          height={1080}
-        />
-        <Image
-          src='/teammember.png'
-          alt="Description of the image"
-          width={254}
-          height={1080}
-        />
-        <Image
-          src='/teammember.png'
-          alt="Description of the image"
-          width={254}
-          height={1080}
-        />
-        <Image
-          src='/teammember.png'
-          alt="Description of the image"
-          width={254}
-          height={1080}
-        />
+        <div className={styles['a-block']}>
+          <Image
+            src='/roger.jpg'
+            alt="Description of the image"
+            width={300}
+            height={220}
+            objectFit="cover"
+            className={styles['a-block-img']}
+          />
+          <p className={styles['img-text']}>Roger, Board of Director</p>
+        </div>
+        <div className={styles['a-block']}>
+          <Image
+            src='/lei.png'
+            alt="Description of the image"
+            width={300}
+            height={220}
+            objectFit="cover"
+            className={styles['a-block-img']}
+          />
+          <p className={styles['img-text']}>Lei, Board of Director</p>
+        </div>
+        <div className={styles['a-block']}>
+          <Image
+            src='/stephanie.png'
+            alt="Description of the image"
+            width={300}
+            height={220}
+            className={styles['a-block-img']}
+          />
+          <p className={styles['img-text']}>Stephanie, Advisor, Founder & CEO of Alpha X Capital</p>
+        </div>
+        <div className={styles['a-block']}>
+          <Image
+            src='/jane.png'
+            alt="Description of the image"
+            width={300}
+            height={220}
+            className={styles['a-block-img']}
+          />
+          <p className={styles['img-text']}>Jane, Advisor, Chief Investment Officer of Alpha X Capital</p>
+        </div>
       </div>
-      <div className={styles['second-row']}>
-        <Image
-          src='/teammember.png'
-          alt="Description of the image"
-          width={254}
-          height={1080}
-        />
-        <Image
-          src='/teammember.png'
-          alt="Description of the image"
-          width={254}
-          height={1080}
-        />
-        <Image
-          src='/teammember.png'
-          alt="Description of the image"
-          width={254}
-          height={1080}
-        />
-        <Image
-          src='/teammember.png'
-          alt="Description of the image"
-          width={254}
-          height={1080}
-        />
-      </div>
-      <Bottombar/>
+      <Bottombar />
     </div>
   );
 }

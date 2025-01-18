@@ -117,3 +117,18 @@
       width: 90%; 
     }
   }
+
+  @media (prefers-color-scheme: dark) {
+    .text-field .MuiInputBase-root {
+      background-color: #333333 !important; 
+      color: #ffffff; 
+    }
+    
+    .text-field .MuiInputBase-input {
+      color: #ffffff !important; 
+    }
+    
+    .text-field .MuiInputLabel-root {
+      color: #bbbbbb !important; 
+    }
+  }
