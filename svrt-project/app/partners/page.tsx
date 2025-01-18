@@ -27,7 +27,7 @@ export default function Page() {
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>Rate DNA</p>
-            <Button className={styles['button-text']}>Loan Service</Button>
+            <Button className={styles['button-text']}>Financing</Button>
           </div>
           <p className={styles['subtext']}>RateDNA Lending is a direct private money lender for 1-4 residential loans in Bay Area. RateDNA is 
           also one of the fastest- growing mortgage brokers in California and provides all various programs to all home buyers and investors, 
@@ -49,7 +49,7 @@ export default function Page() {
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>Yeelee Capital</p>
-            <Button className={styles['button-text']}>Private Lending</Button>
+            <Button className={styles['button-text']}>Financing</Button>
           </div>
           <p className={styles['subtext']}> Yeelee Capital, established in 2023, is based in San Jose, CA, where a group of seasoned real estate experts 
           come together to form a company dedicated to providing tailored lending solutions. We will offer a wide range of lending programs meticulously 
@@ -73,7 +73,7 @@ export default function Page() {
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>AL Homes</p>
-            <Button className={styles['button-text']}>New Construction Development</Button>
+            <Button className={styles['button-text']}>Construction</Button>
           </div>
           <p className={styles['subtext']}>AL Homes specializes in cutting-edge home design and development in Silicon Valley, blending quality 
           craftsmanship, innovative design, and a commitment to green living. We believe a house should be more than just a place to live-it should 
@@ -97,7 +97,7 @@ export default function Page() {
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>TDDG</p>
-            <Button className={styles['button-text']}>Design and Development</Button>
+            <Button className={styles['button-text']}>Design</Button>
           </div>
           <p className={styles['subtext']}>Started since 2019, TDDGUS has done 50 - 75 projects every year so far, with plans to do more every year. 
           After being in the industry for many years, The Design Group has established a great portfolio of designs that bridge the gap between art form 
@@ -121,7 +121,7 @@ export default function Page() {
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>Apex Homes</p>
-            <Button className={styles['button-text']}>Affordable Housing Construction</Button>
+            <Button className={styles['button-text']}>Construction</Button>
           </div>
           <p className={styles['subtext']}>Apex Homes is dedicated to providing sustainable and attainable home solutions to address the
            California housing crisis. Its goal is to build a thousand standardized homes, focusing on innovative, cost-effective, and efficient 
@@ -146,7 +146,7 @@ export default function Page() {
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>Speed</p>
-            <Button className={styles['button-text']}>Home and Community Construction</Button>
+            <Button className={styles['button-text']}>Construction</Button>
           </div>
           <p className={styles['subtext']}> With over 150 successful projects and a wealth of experience, Speed Construction is dedicated 
           to crafting high-quality homes and shaping vibrant communities. Our expertise extends beyond building; we're passionate about the 
@@ -168,7 +168,7 @@ export default function Page() {
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>Ayla</p>
-            <Button className={styles['button-text']}>Loan Service</Button>
+            <Button className={styles['button-text']}>Interior Design</Button>
           </div>
           <p className={styles['subtext']}> AYLA is a leading interior design company specializing in transforming living spaces into 
           personalized works of art. From minimalist elegance to rich traditional styles, AYLA expertly blends form and function to reflect each 
@@ -190,7 +190,7 @@ export default function Page() {
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>KASSA</p>
-            <Button className={styles['button-text']}>Loan Service</Button>
+            <Button className={styles['button-text']}>Construction</Button>
           </div>
           <p className={styles['subtext']}>KASSA is a leading provider of Premium Cabinets and Countertops in the San Jose Bay Area, California. 
           At KASSA Kitchen and Bath, we specialize in the collision of luxury and affordability. As kitchen and bathroom experts dedicated to 
@@ -215,11 +215,9 @@ export default function Page() {
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>SoLeap</p>
-            <Button className={styles['button-text']}>Solar Panels</Button>
+            <Button className={styles['button-text']}>Construction</Button>
           </div>
-          <p className={styles['subtext']}>Coming soon in Spring 2025 ...................
-          ........................................................................................
-           </p>
+          <p className={styles['subtext']}>Coming soon in Spring 2025, a solar panel company.</p>
         </div>
       </div>
       <hr className={styles['my-line']}/>
@@ -236,7 +234,7 @@ export default function Page() {
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>JWH Weiss</p>
-            <Button className={styles['button-text']}>Loan Service</Button>
+            <Button className={styles['button-text']}>Acquisition and Construction</Button>
           </div>
           <p className={styles['subtext']}>With over 60 years in business, JMH Weiss has been delivering advanced sustainable solutions to real 
           estate development projects, including commercial, industrial, residential, institutional, advanced technology, and healthcare facilities 
@@ -262,7 +260,7 @@ export default function Page() {
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>Tranvu, LLC</p>
-            <Button className={styles['button-text']}>Land Survey, Building Design, Civil and Structural Engineering</Button>
+            <Button className={styles['button-text']}>Acquisition and Construction</Button>
           </div>
           <p className={styles['subtext']}>Tranvu, LLC is a one stop company for land development and home improvements. Tranvu, LLC provides 
           services that help clients to eliminate the need to deal with several firms to finish a project. You need to sign only one contract 
@@ -284,7 +282,7 @@ export default function Page() {
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>AlphaX RE Capital</p>
-            <Button className={styles['button-text']}>Real Estate Investment and Asset Management</Button>
+            <Button className={styles['button-text']}>Investment and Asset Management</Button>
           </div>
           <p className={styles['subtext']}>As the fastest growing and most diversified real estate investment and asset management group with 
           the most comprehensive strengths in Silicon Valley (San Francisco Bay Area) in the past five years, its business involves acquisition 
@@ -332,7 +330,7 @@ export default function Page() {
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>Axis Realty</p>
-            <Button className={styles['button-text']}>Buying and Selling</Button>
+            <Button className={styles['button-text']}>Acquisition</Button>
           </div>
           <p className={styles['subtext']}> Axis Realty is a prominent Bay Area real estate company specializing in helping clients buy and 
           sell houses. We have always been committed to helping every customer to "Home for Every Phase, Partner for Every Stage" and to
@@ -357,7 +355,7 @@ export default function Page() {
         <div className={styles['right-half']}>
           <div className={styles['company-and-tag']}>
             <p className={styles['another-maintext']}>Aspire Homes</p>
-            <Button className={styles['button-text']}>Brokerage</Button>
+            <Button className={styles['button-text']}>Acquisition</Button>
           </div>
           <p className={styles['subtext']}> Aspire Homes Realty was established in 2022, based in the Bay Area, founded by a group 
           of investors and real estate brokers with over 10 years of experience in the real estate and investment fields.  </p>
