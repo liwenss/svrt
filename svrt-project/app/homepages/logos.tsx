@@ -9,25 +9,25 @@ export default function Logos() {
                     src='/logo9.png'
                     alt="Description of the image"
                     width={254}
-                    height={1080}
+                    height={254}
                 />
                 <Image
                     src='/logo2.png'
                     alt="Description of the image"
                     width={254}
-                    height={1080}
+                    height={254}
                 />
                 <Image
                     src='/logo3.png'
                     alt="Description of the image"
                     width={254}
-                    height={1080}
+                    height={254}
                 />
                 <Image
                     src='/logo4.png'
                     alt="Description of the image"
                     width={254}
-                    height={1080}
+                    height={254}
                 />
             </div>
             <div className={styles['first-row']}>
@@ -35,25 +35,25 @@ export default function Logos() {
                     src='/logo5.png'
                     alt="Description of the image"
                     width={254}
-                    height={1080}
+                    height={254}
                 />
                 <Image
                     src='/logo6.png'
                     alt="Description of the image"
                     width={254}
-                    height={1080}
+                    height={254}
                 />
                 <Image
                     src='/logo7.png'
                     alt="Description of the image"
                     width={254}
-                    height={1080}
+                    height={254}
                 />
                 <Image
                     src='/logo8.png'
                     alt="Description of the image"
                     width={254}
-                    height={1080}
+                    height={254}
                 />
             </div>
         </div>

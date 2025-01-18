@@ -116,8 +116,12 @@
   @media (max-width: 541px) {
     .text-field {
       width: 90%; 
+      border: 2px solid black !important; 
+    border-radius: 4px; 
     }
   }
+
+
 
 
 
