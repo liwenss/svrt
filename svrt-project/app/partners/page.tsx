@@ -217,7 +217,7 @@ export default function Page() {
             <p className={styles['another-maintext']}>SoLeap</p>
             <Button className={styles['button-text']}>Construction</Button>
           </div>
-          <p className={styles['subtext']}>Coming soon in Spring 2025, a solar panel company.</p>
+          <p className={styles['subtext']}>SoLeap is coming soon and expected to be here in Spring 2025, it is a solar panel company.</p>
         </div>
       </div>
       <hr className={styles['my-line']}/>
