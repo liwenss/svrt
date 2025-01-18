@@ -103,7 +103,7 @@
 
 @media (max-width: 541px) {
     .the-button {
-      width: 90%; 
+      width: 90% !important; 
     }
   }
 
@@ -117,6 +117,7 @@
     .text-field {
       width: 90%; 
       border: 2px solid black !important; 
+      background-color: green !important;
     border-radius: 4px !important; 
     }
   }
