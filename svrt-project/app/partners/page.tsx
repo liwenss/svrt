@@ -63,7 +63,7 @@ export default function Page() {
       <div className={styles['image-and-content']}>
       
         <Image
-          src='/logo9.png'
+          src='/alhome.png'
           alt="Description of the image"
           width={254}
           height={1080}
