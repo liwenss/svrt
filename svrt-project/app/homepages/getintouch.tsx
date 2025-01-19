@@ -18,13 +18,16 @@ export default function Getintouch() {
                     href="/chat" variant="outlined" className={styles['in-touch-button']}>GET IN TOUCH <ArrowRightAltIcon /></Button>
             </div>
             <p className={styles['connect-maintext']}>Silicon Valley Real Estate Tech (SVRT) is a California-based venture capital firm that invests in PropTech startups. Deeply rooted in the real estate industry, SVRT provides mentorship, contracts, and investment to PropTech startups.</p>
-            <div className={styles['website']}>
-                <p>admin@svrt.info</p>
-            </div>
-            <div className={styles['about-and-number']}>
-                <Link href="/about" passHref>
-                    <p>ABOUT SVRT</p>
-                </Link>
+            <div className={styles['align']}>
+                <div className={styles['about-and-number']}>
+                    <Link href="/about" passHref>
+                        <p >ABOUT SVRT</p>
+                    </Link>
+                </div>
+                <div className={styles['website']}>
+                    <p>admin@svrt.info</p>
+                </div>
+
             </div>
         </div>
 

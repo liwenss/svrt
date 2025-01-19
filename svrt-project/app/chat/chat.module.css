@@ -99,6 +99,7 @@
     font-family: Inter !important;
     padding-top: 3% !important;
     padding-bottom: 3% !important;
+    height: 56px;
 }
 
 @media (max-width: 541px) {
