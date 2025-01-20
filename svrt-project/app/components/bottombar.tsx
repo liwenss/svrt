@@ -28,6 +28,9 @@ export default function Bottombar() {
                         <a href="https://www.youtube.com/@SiliconValleyRealEstateTech" >
                             <p>Youtube</p>
                         </a>
+                        <a href="https://groups.google.com/u/3/g/svrt-forum" >
+                            <p>Subscribe to Events</p>
+                        </a>
                     </div>
                     <div className={styles['email-and-number']}>
                         <p className={styles['email']}>admin@svrt.info</p>
