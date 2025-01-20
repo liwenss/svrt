@@ -25,9 +25,16 @@ export default function Page() {
                         of evaluating early-stage startups and gain insights from case studies of successful investments.
                         We'll also guide you on creating an effective pitch deck to attract investors.
                         This seminar is ideal for entrepreneurs, investors, and professionals looking to deepen their understanding of PropTech's evolving landscape.</p>
+                    <a href="https://forms.gle/iHVoQsejVwjd6RVX8" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       style={{ color: '#0000FF', display: 'block', marginTop: '5px', marginBottom: '20px' }}
+                    >
+                        Register HERE now!
+                    </a>
                     <div className={styles['dates-and-location']}>
                         <p>Mountain View, CA</p>
-                        <p>Coming Soon</p>
+                        <p>Feb 8, 2025</p>
                     </div>
 
                 </div>
