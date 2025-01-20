@@ -32,7 +32,14 @@ export default function Upcoming() {
                     </div>
                     <div className={styles['small-text']}>
                         <p>Mountain View, CA</p>
-                        <p>Coming Soon</p>
+                        <p>Feb 8, 2025</p>
+                        <a href="https://forms.gle/iHVoQsejVwjd6RVX8" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       style={{ color: '#0000FF', display: 'block' }}
+                       >
+                        Register HERE now!
+                    </a>
                     </div>
                     <hr className={styles['my-line']} style={{marginTop: '-3rem'}}/>
 
