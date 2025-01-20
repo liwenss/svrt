@@ -57,6 +57,9 @@ export default function Page() {
                     <div>
                         <a href="https://www.youtube.com/@SiliconValleyRealEstateTech" className={styles['small-text']}>Youtube</a>
                     </div>
+                    <div>
+                        <a href="https://groups.google.com/u/3/g/svrt-forum" className={styles['small-text']}>Subscribe to Events</a>
+                    </div>
                 </div>
                 <div className={styles['right-part']}>
                     <p className={styles['small-label']}>Name</p>
