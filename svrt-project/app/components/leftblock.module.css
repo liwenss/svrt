@@ -6,6 +6,13 @@
     line-height: 4.6;
 }
 
+@media (max-width: 541px) {
+    .second-vertical {
+        font-size: 100%;   
+    }
+    
+}
+
 .first-vertical {
     font: Inter;
     font-size: 120%;
@@ -19,6 +26,7 @@
 @media (max-width: 541px) {
     .first-vertical {
         margin-right: 30px;
+        font-size: 100%;
         
     }
     

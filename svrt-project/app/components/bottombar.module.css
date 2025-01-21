@@ -78,8 +78,6 @@
     margin-bottom: 3%;
 }
 
-
-
 .first-horizontal {
     display: flex;
     font: Inter;
@@ -93,6 +91,7 @@
     .first-horizontal {
         gap: 30px;
         margin-top: 3%;
+        font-size: 100%;
         
     }
     
@@ -110,6 +109,7 @@
 
 .right-block {
     line-height: 4.1;
+    
 }
 
 .email-and-number {
@@ -129,11 +129,9 @@
 
 @media (max-width: 541px) {
     .email {
- 
         margin-top: 20%;
-        
+        font-size: 100%;
     }
-    
 }
 
 .number {
@@ -153,3 +151,8 @@
     text-align: right;
 }
 
+@media (max-width: 541px) {
+    .subscribe-to-events {
+        font-size: 100%;
+    }
+}
