@@ -25,7 +25,7 @@ export default function Getintouch() {
                     </Link>
                 </div>
                 <div className={styles['website']}>
-                    <p>admin@svrt.info</p>
+                    <p>contact@svrt.info</p>
                 </div>
 
             </div>
