@@ -8,7 +8,7 @@ export async function POST(request: Request) {
     
     await resend.emails.send({ 
         from: 'onboarding@resend.dev',
-        to: 'admin@svrt.info',
+        to: 'contact@svrt.info',
         subject: 'Welcome!',
         react: Welcome({name, email, message}),
       });
