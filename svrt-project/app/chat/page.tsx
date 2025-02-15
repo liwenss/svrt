@@ -49,7 +49,7 @@ export default function Page() {
                     <p className={styles['title']}>Let's chat.</p>
                     <p className={styles['subtext']}>Reach out if you want to get funding or partner with us.</p>
                     <p className={styles['another-maintext']}>Email</p>
-                    <p className={styles['small-text']}>admin@svrt.info</p>
+                    <p className={styles['small-text']}>contact@svrt.info</p>
                     <p className={styles['another-maintext']}>Socials</p>
                     <div>
                         <a href="https://drive.google.com/file/d/1Pxi7OOSL_9KwQlZvY-VcVtxIy5nCnJCX/view?usp=sharing" className={styles['small-text']}>WeChat</a>
