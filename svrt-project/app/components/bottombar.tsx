@@ -34,7 +34,7 @@ export default function Bottombar() {
                             <p className={styles['subscribe-to-events']}>Subscribe to Events</p>
                         </a>
                     <div className={styles['email-and-number']}>
-                        <p className={styles['email']}>admin@svrt.info</p>
+                        <p className={styles['email']}>contact@svrt.info</p>
                     </div>
                 </div>
             </div>
