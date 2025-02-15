@@ -22,7 +22,7 @@ export default function Croppedbar() {
                         </a>
                     </div>
                     <div className={styles['email-and-number']}>
-                        <p className={styles['email']}>admin@svrt.info</p>
+                        <p className={styles['email']}>contact@svrt.info</p>
                     </div>
                 </div>
             </div>
