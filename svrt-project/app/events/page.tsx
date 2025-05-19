@@ -18,6 +18,16 @@ export default function Page() {
                     />
                 </div>
                 <div className={styles['right-half']}>
+                    <p className={styles['another-maintext']}>AI Application in Residential Construction</p>
+                    <p className={styles['subtext']}>Join us for an in-depth seminar on one case study from Quotr's co-founders on AI application in the residential construction.
+                        As the company name suggests, the tooling can handle the end to end price quoting workflow, to provide a leap forward customer experience with better accuracy.
+                        This seminar is ideal for entrepreneurs, investors, and professionals looking to deepen their understanding of PropTech's evolving landscape.</p>
+                    <div className={styles['dates-and-location']}>
+                        <p>Mountain View, CA</p>
+                        <p>May 18, 2025</p>
+                    </div>
+                </div>
+                <div className={styles['right-half']}>
 
                     <p className={styles['another-maintext']}>From a VC's Eyes -- How Will I Evaluate a Startup</p>
                     <p className={styles['subtext']}>Join us for an in-depth seminar on VC funding in the PropTech industry,
@@ -25,13 +35,6 @@ export default function Page() {
                         of evaluating early-stage startups and gain insights from case studies of successful investments.
                         We'll also guide you on creating an effective pitch deck to attract investors.
                         This seminar is ideal for entrepreneurs, investors, and professionals looking to deepen their understanding of PropTech's evolving landscape.</p>
-                    <a href="https://forms.gle/iHVoQsejVwjd6RVX8" 
-                       target="_blank" 
-                       rel="noopener noreferrer"
-                       style={{ color: '#0000FF', display: 'block', marginTop: '5px', marginBottom: '20px' }}
-                    >
-                        Register HERE now!
-                    </a>
                     <div className={styles['dates-and-location']}>
                         <p>Mountain View, CA</p>
                         <p>Feb 8, 2025</p>
