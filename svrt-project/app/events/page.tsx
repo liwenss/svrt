@@ -8,7 +8,7 @@ export default function Page() {
     return (
         <div className={styles['padding']}>
             <p className={styles['title']}>Events</p>
-            <div className={styles['image-and-content']}>
+                        <div className={styles['image-and-content']}>
                 <div className={styles['image-wrapper']}>
                     <Image
                         src='/svrt-black.png'
@@ -26,6 +26,18 @@ export default function Page() {
                         <p>Mountain View, CA</p>
                         <p>May 18, 2025</p>
                     </div>
+                </div>
+            </div>
+            <hr className={styles['my-line']} />
+            
+            <div className={styles['image-and-content']}>
+                <div className={styles['image-wrapper']}>
+                    <Image
+                        src='/svrt-black.png'
+                        alt="Description of the image"
+                        width={1300}
+                        height={1080}
+                    />
                 </div>
                 <div className={styles['right-half']}>
 
