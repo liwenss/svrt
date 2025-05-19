@@ -25,6 +25,25 @@ export default function Upcoming() {
                 <div className={styles['all-events']}>
                     <hr className={styles['my-line']} style={{marginTop: '-3rem'}}/>
                     <div className={styles['eventtitle-and-arrow']}>
+                        <p className={styles['end-of-year']}>AI Application in Residential Construction</p>
+                        <Link href="/events">
+                        <NorthEastRoundedIcon className={styles['myy-arrow']}/>
+                        </Link>
+                    </div>
+                    <div className={styles['small-text']}>
+                        <p>Mountain View, CA</p>
+                        <p>May 18, 2025</p>
+                        <a href="https://forms.gle/iHVoQsejVwjd6RVX8" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       style={{ color: '#0000FF', display: 'block' }}
+                       >
+                        Register HERE now!
+                        </a>
+                    </div>
+                    <hr className={styles['my-line']} style={{marginTop: '-3rem'}}/>
+                    
+                    <div className={styles['eventtitle-and-arrow']}>
                         <p className={styles['end-of-year']}>From a VC's Eyes -- How Will I Evaluate a Startup</p>
                         <Link href="/events">
                         <NorthEastRoundedIcon className={styles['myy-arrow']}/>
@@ -33,13 +52,6 @@ export default function Upcoming() {
                     <div className={styles['small-text']}>
                         <p>Mountain View, CA</p>
                         <p>Feb 8, 2025</p>
-                        <a href="https://forms.gle/iHVoQsejVwjd6RVX8" 
-                       target="_blank" 
-                       rel="noopener noreferrer"
-                       style={{ color: '#0000FF', display: 'block' }}
-                       >
-                        Register HERE now!
-                    </a>
                     </div>
                     <hr className={styles['my-line']} style={{marginTop: '-3rem'}}/>
 
