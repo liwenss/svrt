@@ -8,7 +8,7 @@ export default function Page() {
     return (
         <div className={styles['padding']}>
             <p className={styles['title']}>Events</p>
-                        <div className={styles['image-and-content']}>
+            <div className={styles['image-and-content']}>
                 <div className={styles['image-wrapper']}>
                     <Image
                         src='/svrt-black.png'
